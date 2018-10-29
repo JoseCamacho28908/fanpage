@@ -4,16 +4,96 @@ html {
 
 body {
     height: 100%;
-    
+    background-color: black;
+    margin: 0px;
 }
 a {
     text-decoration: none;
+    color:#FF0000;
 }
 
 .main {
     height: 100%;
+    background-image: url("https://res.cloudinary.com/teepublic/image/private/s--yeUtRhQW--/t_Preview/b_rgb:191919,c_lpad,f_jpg,h_630,q_90,w_1200/v1470415127/production/designs/618342_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .social-image{
     width: 30px;
     margin: 15px;
+    
 }
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    font-family: cursive; 
+    color: 	#FF0000;
+}
+
+.navbar {
+        display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: #231f20;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: red;
+    background-color: #231f20;
+}
+
+.social {
+     display: flex;
+    justify-content: center;
+    
+}
+
+.aboutMain {
+    
+    display:flex;
+    height:100%;
+}
+
+
+.rightPane {
+    width:50%;
+    background-image:url("https://static.zerochan.net/Uchiha.Itachi.full.837948.jpg");
+}
+
+.leftPane {
+    width:50%;
+    font-size:20px;
+    padding-right: 25px;
+    color:grey;
+}
+
+.gallery {
+    
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.thumbnail {
+    margin:30px;
+    border:solid #FF0000;
+    width:250px;
+    height:250px;
+}
+
+.thumbnail-image {
+    height:100%;
+    width:100%;
+    
+}
+
+
+
