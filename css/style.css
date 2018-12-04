@@ -4,12 +4,13 @@ html {
 
 body {
     height: 100%;
-    background-color: black;
+    background-color: #000000;
     margin: 0px;
 }
+
 a {
     text-decoration: none;
-    color:#FF0000;
+    color: #FF0000;
 }
 
 .main {
@@ -18,28 +19,29 @@ a {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.social-image{
+
+.social-image {
     width: 30px;
     margin: 15px;
-    
+
 }
 
 .header {
     display: flex;
     justify-content: space-around;
     font-size: 50px;
-    font-family: cursive; 
-    color: 	#FF0000;
+    font-family: cursive;
+    color: #FF0000;
 }
 
 .navbar {
-        display: flex;
+    display: flex;
     justify-content: space-around;
     font-size: 20px;
     background-color: #231f20;
     padding-top: 15px;
     padding-bottom: 15px;
-    
+
 }
 
 .footer {
@@ -51,49 +53,46 @@ a {
 }
 
 .social {
-     display: flex;
+    display: flex;
     justify-content: center;
-    
+
 }
 
 .aboutMain {
-    
-    display:flex;
-    height:100%;
+
+    display: flex;
+    height: 100%;
 }
 
 
 .rightPane {
-    width:50%;
-    background-image:url("https://static.zerochan.net/Uchiha.Itachi.full.837948.jpg");
+    width: 50%;
+    background-image: url("https://static.zerochan.net/Uchiha.Itachi.full.837948.jpg");
 }
 
 .leftPane {
-    width:50%;
-    font-size:20px;
+    width: 50%;
+    font-size: 20px;
     padding-right: 25px;
-    color:grey;
+    color: grey;
 }
 
 .gallery {
-    
+
     display: flex;
-    flex-wrap:wrap;
-    justify-content:space-around;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .thumbnail {
-    margin:30px;
-    border:solid #FF0000;
-    width:250px;
-    height:250px;
+    margin: 30px;
+    border: solid #FF0000;
+    width: 250px;
+    height: 250px;
 }
 
 .thumbnail-image {
-    height:100%;
-    width:100%;
-    
+    height: 100%;
+    width: 100%;
+
 }
-
-
-
